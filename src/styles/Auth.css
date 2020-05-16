@@ -1,0 +1,21 @@
+.auth-div {
+    width: 60%;
+    margin:auto;
+    margin-top: 2em;
+}
+
+.div2auth {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.div2auth > div:first-child {
+    background: var(--divBlack);
+    padding: 20px;
+    color:var(--div)
+}
+.div2auth > div:last-child {
+    background: var(--div);
+    color:var(--divBlack);
+    padding: 20px;
+}

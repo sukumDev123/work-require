@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../styles/Input.css";
 interface InputInterface {
   placeholder: string;
   value?: string;

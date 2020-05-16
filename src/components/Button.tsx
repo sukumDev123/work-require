@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../styles/Button.css";
 interface ButtonInterface {
   className: string;
   children: string;
