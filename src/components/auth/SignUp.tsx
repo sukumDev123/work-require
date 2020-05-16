@@ -18,7 +18,7 @@ function SignUp() {
     setMessage("Clicked");
   };
   return <div className="signin">
-    <h3>Sign Up</h3>
+    <h2>Sign Up</h2>
     <h5>{message}</h5>
     <form onSubmit={createUser}>
       <div className="md-form">

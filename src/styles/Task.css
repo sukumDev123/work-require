@@ -1,0 +1,33 @@
+.show-task-list {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.show-task-list-left {
+    padding: 2em;
+    background-color: var(--divBlack);
+    color:var(--div)
+}
+.body-user {
+    width:95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.show-task-list-right{
+    padding: 2em;
+    background-color: var(--div);
+}
+.divInputAndButton {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin-bottom: 1em;
+}
+.divInputAndButton  input {
+    width:100%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.divInputAndButton button {
+    width: 100%;
+    padding: 1em;
+    
+}

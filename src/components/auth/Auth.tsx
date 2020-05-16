@@ -3,11 +3,21 @@ import { Route, Switch } from "react-router-dom";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
 import "../../styles/Auth.css";
-function Auth() {
-  return <div className="auth-div">
+const Auth = () =>
+  <div className="auth-div">
     <div className="div2auth">
       <div>
-        detail
+        <div>
+          <h3 className="text-center">The Work Planning</h3>
+          <h5
+            className="text-center"
+          >
+            The Work Planning is created for manage task.
+          </h5>
+          <p>
+            When task are comming. I has my team, and My team is choose some of task to work and update tash to show team.
+          </p>
+        </div>
       </div>
       <div>
         <Switch>
@@ -17,5 +27,4 @@ function Auth() {
       </div>
     </div>
   </div>;
-}
 export default Auth;

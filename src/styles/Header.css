@@ -1,0 +1,25 @@
+.header-div {
+    background: var(--divBlack);
+    color:var(--div);
+    padding: 0.51em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 0px 5px 1px rgba(0, 0, 0, .3);
+
+}
+.header-div h2 {
+    padding-left: 2em;
+}
+.header-div ul {
+    display: flex;
+    padding: 0;
+}
+.header-div li {
+    margin-left: 1em;
+    list-style:none
+}
+.nav-item {
+    color:white;
+    text-decoration: none;
+}

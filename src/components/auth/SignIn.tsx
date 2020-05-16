@@ -17,7 +17,7 @@ function SignIn() {
       : setMessage("Some of fileds are empty.");
   };
   return <div className="signin">
-    <h3>Sign in</h3>
+    <h2 className="text-center mb-2">Sign in</h2>
     <h5>{message}</h5>
     <form onSubmit={login}>
       <Input
